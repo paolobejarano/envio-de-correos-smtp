@@ -17,7 +17,7 @@ mensaje['From'] = "paolo@kurios.la"
 mensaje['To'] = "paolo.bejarano@gmail.com"
 mensaje['Subject'] = "Hola mundo"
 cuerpo_del_correo = """
-Este es el cuerpo del correo
+Este es el cuerpo del correo"""
 mensaje.attach(MIMEText(cuerpo_del_correo))
 ```
 
